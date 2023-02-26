@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Landforms And You: Perimeter</title>
+<meta charset="utf-8">
+<meta width="device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+<script src="modernizr.custom.05819.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+	<h1><a href="index.html">Landforms And You</a></h1>
+	</header>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+	<div id="currentpage">
+  <a href="perimeter.html" class="active">Calculating Perimeter</a>
+	</div>
+	
+  <div id="pagelinks">
+		<a href="index.html">Home</a>
+		<a href="plains.html">Plains</a>
+		<a href="oceans.html">Oceans</a>
+		<a href="mountains.html">Mountains</a>
+		<a href="area.html">Calculating Area</a>
+		<a href="webSecurity.html">Web Security</a>
+		<a href="feedback.html">Feedback</a>
+		<a href="time.html">Calculating Time</a>
+		<a href="map.html">Map</a>
+
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<main>
+	<h2>Calculating Perimeter</h2>
+		<p></p>
+		
+	<fieldset>	
+	<label for="length">
+            <p>Length (ft): </p>
+    </label>
+	<input type="number" min="0" id="length" value="" />
+     
+	<label for="width">
+        <p>Width (ft): </p>
+    </label>
+	<input type="number" min="0" id="width" value="" />
+	
+	<p>Calculated Perimeter: <span id="perimeter"></span></p>
+	
+	</fieldset>	
+	
+	<br>
+	
+</main>
+<footer>
+	Copyright &copy; 2021 Landforms Org 
+</footer>
+</div>
+   <script src="perimeter.js"></script>
+</body>
+</html>

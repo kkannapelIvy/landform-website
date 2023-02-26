@@ -1,0 +1,218 @@
+
+/*Sets padding and font size for header*/
+header{	padding-left: 1em;
+	padding-top: 0.5em;
+	font-size: 120%;
+	text-decoration: none;
+	background-color: #F5F5F5;
+}
+
+/*Sets margin, and default font with backup for body section*/
+body{font-family: Arial, Sans-serif;
+	margin: 0;
+	background-color: #082416;
+}
+
+/*Sets padding and display for main section*/	
+main{padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	display: block;
+	background-color: #F5F5F5;
+}	
+
+/*Sets color and text decoration for links outside of nav bar*/	
+a:link {color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/*Sets appearance for nav menu*/	
+nav{background-color: #30694B;
+	color:white;
+	height:50px;
+	padding: 0.5em;
+	overflow: hidden;
+}
+
+/*Sets look for hyperlinks in the main body*/
+main a:link {color: blue;
+	background-color: transparent;
+}
+
+main a:visited {color: blue;
+	background-color: transparent;
+}
+
+/*Sets width and padding for lists within nav*/	
+nav li {width: 40%;
+	padding-right: 5em;
+	display: inline;
+}	
+
+/*Sets color and text decoration for links within nav bar*/	
+nav a:link {color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+nav a:visited {color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+nav a:hover {color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+nav a:active {color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+	
+/*Aligns footer to the center with padding*/	
+footer{background-color: #30694B;
+	color: white;
+	text-align: center;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+/*Gets picture for Home page that is centered and scales
+	with window size*/			
+#earthPicture{background-image: url(earthPicture.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+    height: 85vh;
+    margin: auto;
+	display: flex;	
+}
+
+/*Gets picture for Plains page that is centered and scales
+	with window size*/	
+#plainPicture{background-image: url(plainPicture.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+    height: 85vh;
+    margin: auto;
+	display: flex;
+}
+
+/*Gets picture for Oceans page that is centered and scales
+	with window size*/	
+#oceanPicture{background-image: url(oceanPicture.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+    height: 85vh;
+    margin: auto;
+	display: flex;
+}
+
+/*Gets picture for Mountains page that is centered and scales
+	with window size*/	
+#mountainPicture{background-image: url(mountainPicture.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+    height: 85vh;
+    margin: auto;
+	display: flex;
+}
+
+/*Creates a wrapper for the website*/	
+#wrapper { background-color: #F5F5F5;
+	margin: auto;
+	width: 80%;
+}
+
+.image-wrap img { max-width:100%;
+	height:auto; 
+}
+
+/*Sets color and position of nav bar*/
+.navbar {
+  background-color: #30694B;
+  position: relative;
+}
+
+/*Hide pages that arent the current one */
+.navbar #pagelinks {
+  display: none;
+}
+
+/*Sets color for nav bar links and hamburger icon*/
+.navbar a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*sets default position and padding for fieldsets*/
+fieldset {
+   position: relative;
+   padding: 5px 5px 20px 20px;
+   background: white;
+}
+
+/*sets style of input boxes and text areas within the .checkbox fieldset*/
+fieldset.checkbox input, div.checkbox input {
+   float: left;
+   margin-right: 5px;
+}
+
+fieldset.checkbox textarea {
+   margin-top: 5px;
+   margin-left: 20px;
+   width: 50%;
+   height: 20px;
+}
+
+/*sets labels and inputs to display as blocks*/
+label, input {
+   display: block;
+}
+
+/*makes check boxes, text area, etc left aligned*/
+input, label, select, textarea, fieldset p {
+   position: relative;
+   line-height: 1.2em;
+}
+
+/*aligns map with center of page and sets height and width*/
+#map {text-align: center;
+     height: 500px;
+	 width: 100%;
+ }
